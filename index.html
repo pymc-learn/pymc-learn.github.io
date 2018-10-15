@@ -41,14 +41,15 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="http://docs.pymc-learn.org/en/latest/">Overview</a>
-              <a class="dropdown-item" href="http://docs.pymc-learn.org/en/latest/regression.html">Regression</a>
-              <a class="dropdown-item" href="http://docs.pymc-learn.org/en/latest/classification.html">Classification</a>
-              <a class="dropdown-item" href="http://docs.pymc-learn.org/en/latest/mixture.html">Clustering</a>
-              <a class="dropdown-item" href="http://docs.pymc-learn.org/en/latest/neural-network.html">Neural Networks</a>
+              <a class="dropdown-item" href="http://docs.pymc-learn.org/en/latest/supervised_learning.html">Regression</a>
+              <a class="dropdown-item" href="http://docs.pymc-learn.org/en/latest/supervised_learning.html">Classification</a>
+              <a class="dropdown-item" href="http://docs.pymc-learn.org/en/latest/unsupervised_learning.html">Clustering</a>
+              <a class="dropdown-item" href="http://docs.pymc-learn.org/en/latest/supervised_learning.html">Neural Networks</a>
             </div>
           </li>
 
           <li class="navbar-item"><a class="nav-link" href="http://docs.pymc-learn.org/en/latest/install.html">Install</a></li>
+          <li class="navbar-item"><a class="nav-link" href="http://docs.pymc-learn.org/en/latest/user_guide.html">User Guide</a></li>
           <li class="navbar-item"><a class="nav-link" href="https://mybinder.org/v2/gh/pymc-learn/pymc-learn/master?filepath=%2Fdocs%2Fnotebooks?urlpath=lab">Tutorial</a></li>
         </ul>
       </div>
@@ -92,7 +93,7 @@
             <img src="https://www.inria.fr/var/inria/storage/images/medias/saclay/actualites-images/saclay_scikit_learn_classification_398x195/841331-1-fre-FR/saclay_scikit_learn_classification_398x195.jpg" class="top-image">
             <p>Scikit-learn is a popular Python library for machine learning provides a simple API that makes it very easy for users to train, score, save and load models in production.</p>
             <p>
-              <a class="btn btn-outline-secondary" href="http://scikit-learn.org/stable/" role="button">Learn More about Scikit-Learn &raquo;</a>
+              <a class="btn btn-outline-secondary" href="http://scikit-learn.org" role="button">Learn More about Scikit-Learn &raquo;</a>
             </p>
           </div><!-- /.col-lg-4 -->
 
@@ -145,6 +146,23 @@ clf.fit(X, y)</code></pre>
         <hr class="featurette-divider"></hr>
 
         <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Quantify Uncertainty</h2>
+            <h2 class="featurette-subheading">Models should know when they don't know</h2>
+            <p class="lead">Quantify the degree of uncertainty in model parameters and predictions.</p>
+            <p class="lead">Probability is the fundamental mathematical principle for quantifying uncertainty. Pymc-learn provides probabilistic models that represent and process uncertain values using Bayesian inference.</p>
+            <a class="btn btn-secondary" href="http://docs.pymc-learn.org/en/latest/why.html#quantification-of-uncertainty" role="button">Why Uncertainty Quantification is Important &raquo;</a>
+          </div>
+
+          <div class="col-md-5 p-lg-1 mx-auto my-5">
+            <img src="_images/quantify_uncertainty.png"
+                 width="100%">
+          </div>
+        </div>
+
+        <hr class="featurette-divider"></hr>
+
+        <div class="row featurette">
           <div class="col-md-7 order-md-1">
             <h2 class="featurette-heading">Scale up to Big Data</h2>
             <h2 class="featurette-subheading">Using Variational Inference</h2>
@@ -154,10 +172,11 @@ clf.fit(X, y)</code></pre>
             <a class="btn btn-secondary" href="https://docs.pymc.io/notebooks/bayesian_neural_network_advi.html" role="button">Learn About Variational Inference &raquo;</a>
           </div>
           <div class="col-md-5 order-md-2" style="padding: 6rem 0rem;">
-            <img src="https://github.com/dask/dask-org/raw/master/images/grid_search_schedule.gif"
-                 width="100%">
+            <img src="_images/scale_to_big_data.jpg"
+                 width="80%">
           </div>
         </div>
+
         <hr class="featurette-divider"></hr>
       </div>
 
