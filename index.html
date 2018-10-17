@@ -123,23 +123,20 @@
           </div>
 
           <div class="col-md-5 code-block">
-            <pre><code class="language-python"># For regression using linear model
+            <ul><li>Scikit-learn syntax</li></ul>
+            <pre><code class="language-python"># Linear regression in scikit-learn
+from sklearn.linear_model \
+  import LinearRegression
+lr = LinearRegression()
+lr.fit(X, y)</code></pre>
+
+            <ul><li>Pymc-learn syntax</li></ul>
+            <pre><code class="language-python"># Linear regression in pymc-learn
 from pmlearn.linear_model \
   import LinearRegression
 lr = LinearRegression()
 lr.fit(X, y)</code></pre>
 
-            <pre><code class="language-python"># For regression using Gaussian process
-from pmlearn.gaussian_process \
-  import GaussianProcessRegressor
-gpr = GaussianProcessRegressor()
-gpr.fit(X, y)</code></pre>
-
-            <pre><code class="language-python"># For classification using Neural Networks
-from pmlearn.neural_network \
-  import MLPClassifier
-clf = MLPClassifier()
-clf.fit(X, y)</code></pre>
           </div>
         </div>
 
