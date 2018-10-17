@@ -26,7 +26,7 @@ body {
   border-radius: 0.3rem;
 }
 .navbar li:hover {
-  background-color: #229666;
+  background-color: #FDA061;
 }
 .navbar li .nav-link{
   color: #ffffff;
@@ -44,12 +44,12 @@ body {
 }
 
 .dropdown-item:hover {
-  background-color: #229666;
+  background-color: #FDA061;
 }
 
 .hero {
-  background-color: #463de5;
-  text-color: white;
+  background-color: #a09f9f;
+  text-color: #ea0909;
 }
 
 
@@ -62,24 +62,24 @@ body {
 .outline-dask {
   color: #ffffff;
   background-color: transparent;
-  border-color: #229666;
+  border-color: #FDA061;
 }
 
 
 .outline-dask:hover {
   color: #212529;
-  background-color: #229666;
-  border-color: #229666;
+  background-color: #FDA061;
+  border-color: #FDA061;
 }
 
 .solid-dask {
   color: #212529;
-  background-color: #229666;
+  background-color: #FDA061;
 }
 
 .solid-dask:hover {
   color: #212529;
-  background-color: #229666;
+  background-color: #FDA061;
 }
 
 
